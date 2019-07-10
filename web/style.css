@@ -1,0 +1,162 @@
+@font-face {
+    font-family: Oxygen; /* Гарнитура шрифта */
+    src: url(Oxygen.ttf); /* Путь к файлу со шрифтом */
+   }
+body{
+	margin: 0;
+	font-family: 'Oxygen', sans-serif;
+	background-image: linear-gradient(yellow, orange);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+
+}
+.header{
+	width: 100%;
+	height: 200px;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.title{
+	font-size: 0;
+	font-family: 'Inconsolata', monospace;
+}
+
+.title span{
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+	padding: 25px;
+	font-size: 70px;
+}
+
+.title span:first-of-type{
+	border-left: 2px solid black;
+}
+
+.title span:last-of-type{
+	border-right: 2px solid black;
+}
+
+
+.po{
+	display: grid;
+	grid-template-columns: 20% 20% 20% 20% 20%;
+	background-color: #FFB000;
+	box-shadow: 0 0 5px 5px #FFBE2F;
+	height: 360px;
+	width: 90%;
+	text-align: center;
+	margin: auto;
+	margin-top: 60px;
+	border-radius: 20px;
+}
+
+.nav{
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	height: 60px;
+	align-items: center;
+	background-color: #1F1F1F;
+}
+
+a
+{
+	text-decoration: none;
+	font-weight: none;
+	color: black;
+	font-size: 20px;
+}
+
+.nav a{
+	background-color: white;
+}
+
+.nav a:hover{
+	background-color: white;
+	text-decoration: underline;
+}
+
+.nav a:visited{
+	text-decoration: none;
+	color: black;
+}
+
+.nav a:active{
+	text-decoration: none;
+	color: black;
+}
+
+.nav-item{
+	width: 200px;
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+}
+
+ol{
+	color: #1F1F1F;
+}
+
+footer{
+	width: 100%;
+	height: 200px;
+	background-color: #1f1f1f;
+	display: inline-flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+ul{
+	list-style: none;
+}
+ul.content{
+	list-style: none;
+}
+
+ul.content li a{
+	color: white;
+	background-color: #1f1f1f;
+}
+
+ul.content li a:hover{
+	text-decoration: underline;
+}
+
+.foot-el{
+	display: flex;
+	padding: auto;
+}
+
+.discount{
+	font-weight: bold;
+	font-size: 40px;
+	background-color: #EE3834;
+	padding: 30px;
+	color: white;
+}
+
+.container{
+	height: 1000px;
+}
+
+.reg{
+	width: 12%;
+	background-color: #F26E52;
+	padding: 12px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px 10px #F26E52;
+}
+
+.reg form input{
+	margin-top: 10px;
+}

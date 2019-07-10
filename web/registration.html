@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Welcome</title>
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header class="header">
+		<div class="title">
+			<span>M</span>
+			<span>O</span>
+			<span>O</span>
+			<span>N</span>
+		</div>
+	</header>
+	<navbar class="nav">
+		<a href="index.html"><div class="nav-item">Главная</div></a>
+		<a href="store.html"><div class="nav-item">Магазин</div></a>
+		<a href="#"><div class="nav-item">Форум</div></a>
+		<a href="#"><div class="nav-item">Помощь</div></a>
+		<a href="registration.html"><div class="nav-item">Регистрация</div></a>
+	</navbar>	
+	<div class="container">
+	<div class="reg">
+		<form action="index.html" method="POST">
+			<input type="text" required placeholder="Логин" min="3" max="16" name="login"> <br>
+			<input type="password" required placeholder="Пароль" min="6" max="16" name="password"> <br>
+			<input type="email" name="mail" placeholder="Email"><br>
+			<span>Пол:</span>
+			<input type="radio" name="gender" id="gender-male"><label for="gender-male">М</label>
+			<input type="radio" name="gender" id="gender-female"><label for="gender-female">Ж</label>
+			<br><input type="date" placeholder="Дата рождения" name="date">
+			<br><br>
+			<label for="country">Страна:</label>
+			<select name="country" id="country">
+				<option value="russia">РФ</option>
+				<option value="usa">США</option>
+			</select>	<br>
+			<input type="submit" name="submit">
+			<input type="reset" class="reset" name="reset">
+		</form>
+	</div>	
+	</div>
+	
+	<footer>
+		<div class="foot-el">
+			<ul>
+				<li><a href="#" class="discount">АКЦИИ И СПЕЦПРЕДЛОЖЕНИЯ</a></li>
+			</ul>
+		</div>
+		<div class="foot-el">
+			<ul class="content">
+				<li><a href="#">Отзывы</a></li>
+				<li><a href="#">Предложения</a></li>
+				<li><a href="#">Помощь</a></li>
+				<li><a href="#">Служба поддержки</a></li>
+			</ul>
+		</div>
+		<div class="foot-el">
+			<ul class="content">
+				<li><a href="#">Заказ</a></li>
+				<li><a href="#">Доставка</a></li>
+				<li><a href="#">Возврат</a></li>
+				<li><a href="#">Оплата</a></li>
+			</ul>
+		</div>
+		<div class="foot-el">
+			<ul class="content">
+				<li><a href="instagram.com">Instagram</a></li>
+				<li><a href="facebook.com">Facebook</a></li>
+				<li><a href="vk.com">VK</a></li>
+				<li><a href="YouTube.com">YouTube</a></li>
+			</ul>
+		</div>
+
+		
+		<div class="foot-el">
+			<ul class="content">
+				<li><a href="#">Вакансии</a></li>
+				<li><a href="#">О нас</a></li>
+				<li><a href="#">Отзывы</a></li>
+				<li><a href="#">Контакты</a></li>
+			</ul>
+		</div>
+	</footer>
+</body>
+</html>
